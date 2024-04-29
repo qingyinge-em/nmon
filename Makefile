@@ -1,2 +1,2 @@
 all:
-	gcc lmon16n.c -lcurses -lm -o nmon
+	gcc lmon16n.c -lncurses -lm -o nmon -static
